@@ -93,11 +93,15 @@ a  {
 }
 .video_button1{
     background-color: yellow;
-    text-align: center;
     margin-top: 20px;
     margin-left: 40px;
-    font-size: 20px;
     border-radius:0rem;
+
+}
+.video_p3{
+    font-size: 20px;
+    text-align: center;
+    
 }
 .video_p2{
     margin-top: 10px;
