@@ -50,6 +50,13 @@ color: blueviolet;
 font-weight: bold;
 border-radius: 1px  blueviolet;
 }
+.nav{
+    /* margin-left: 300px; */
+    padding-left: 50px;
+}
+.imger{
+    margin-bottom: -10px;
+}
 a  {
     color: yellow;
 }

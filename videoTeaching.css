@@ -54,6 +54,12 @@ border-radius: 1px  blueviolet;
 a  {
     color: yellow;
 }
+.nav{
+    padding-left: 50px;
+}
+.imger{
+    margin-bottom: -10px;
+}
 .video_h1{
     margin-top: 20px;
     text-align: center;
