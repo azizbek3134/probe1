@@ -16,41 +16,41 @@ a {
     padding-right: 10px;
     color: rgb(47, 136, 196);
 }
+.nav-link:hover {
+    transform: scale(1.3, 1.3);
+    transition-duration: 0.5s;
+}
 div span > img {
     width: 45px;
     height: 38px;
     padding-left: 0px;
 }
-ul {
-    padding-left: 20px;
-    position: sticky;
-    flex-basis: auto;
-    
-}
+
 body {
     background-color: rgb(238, 232, 185);
-    background-image: url(https://github.com/azizbek3134/probe1/blob/main/img/pexels-madison-inouye-1831234.jpg);
-   
+    background-image: url(/img/pexels-madison-inouye-1831234.jpg)
 }
 h1 {
     color: black
 }
-a:hover {
-    color: blueviolet;
-}
+
 a:active {
     color: green;
 }
-a:visited {
-    color: rgb(219, 121, 216);
-}
+
 a:focus {
 color: blueviolet;
 font-weight: bold;
 border-radius: 1px  blueviolet;
 }
-a  {
+a:hover  {
     color: yellow;
+    transform: scale(1.2, 1.2);
+
+}
+.nav-item {
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.5s;
 }
 p {
     color: black;
@@ -99,38 +99,30 @@ h2 {
     text-decoration: none;
     padding-right: 3px;
     padding-left: 3px;
+
+}
+.search-btn:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.7s;
 }
 .container-fluid {
     background: #3b4245;
 }
 .flex-container2 {
-flex-direction: column;
-width: 120vh;
-display: flex;
-height: 600px;
-max-height: 120vh;
+display: inline-block;
+width: 100%;
+height: 100%;
 border: 10px solid blue;
+position: relative ;
 
 }
-.flexitem{
-    width: 100.33%;
-    /* width: calc(33.33%); */
-    height: 33.33% ;
+.flexitem-flex{
+   position: relative;
+   height: 33.33%;
     
    
 }
-.flex1{
-display: flex;
 
- }
-.flex2 {
-display: flex;
-
-}
-.flex3{
-
-display: flex;
-}
  div > img {
     display: flex;
     width: 33%;
@@ -142,4 +134,43 @@ display: flex;
     text-align: right;
    margin-top: 0;
    margin-left: 10px;
+}
+.forum {
+    float: right;
+    position: relative;
+    width: 30%;
+    height: 115vh;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgb(181, 168, 168);
+    z-index: 100;
+    background-color: yellowgreen;
+
+}
+
+
+.video {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    border: 3px solid green;
+    display: flex;
+    gap: 6px;
+    padding: 5px;
+    flex-direction: column;
+    
+}
+.forum {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float: right;
+    z-index: 100;
+}
+.list {
+    display: block;
+}
+.flexitem-flex{
+    display: flex;
+    flex-direction: row;
 }
