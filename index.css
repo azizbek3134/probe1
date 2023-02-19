@@ -53,3 +53,14 @@ border-radius: 1px  blueviolet;
 a  {
     color: yellow;
 }
+.video_footer{
+    height: 100px;
+    width: 100%;
+    background-color:#322D2D;
+}
+.video_footer_p1{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 30px;
+    font-size: 25px;
+}
