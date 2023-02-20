@@ -51,7 +51,6 @@ font-weight: bold;
 border-radius: 1px  blueviolet;
 }
 .nav{
-    /* margin-left: 300px; */
     padding-left: 50px;
 }
 .imger{
@@ -59,6 +58,9 @@ border-radius: 1px  blueviolet;
 }
 a  {
     color: yellow;
+}
+.div_hr{
+    margin-top: 30px;
 }
 .video_footer{
     height: 100px;
