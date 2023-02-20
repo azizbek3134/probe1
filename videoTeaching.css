@@ -65,6 +65,10 @@ a  {
     text-align: center;
     font-size: 50px;
 }
+.video_img1{
+    width: 91%;
+    height: 600px;
+}
 .video_p1{
     text-align: center;
     margin-top: 20px;
