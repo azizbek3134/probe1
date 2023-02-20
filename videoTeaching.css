@@ -68,19 +68,18 @@ a  {
 .video_img1{
     width: 89.3%;
     height: 600px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 .video_p1{
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
 }
-.video_img1{
-    margin-top: 20px;
-    margin-left: 40px;
-}
+
 .video_img2{
     margin-top: 20px;
-    margin-left: q40px;
+    margin-left: 40px;
 }
 .video_p20{
     margin-top: 20px;
