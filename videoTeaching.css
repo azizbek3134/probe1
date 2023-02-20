@@ -66,7 +66,7 @@ a  {
     font-size: 50px;
 }
 .video_img1{
-    width: 91%;
+    width: 89.3%;
     height: 600px;
 }
 .video_p1{
@@ -80,7 +80,16 @@ a  {
 }
 .video_img2{
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: q40px;
+}
+.video_p20{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+iframe{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .video_img3{
     margin-top: 20px;
@@ -118,11 +127,14 @@ a  {
     margin-top: 20px;
     margin-left: 20px;
 }
+.video_hr{
+    margin-top: 120px;
+}
 .video_beson{
     display: flex;
 }
 .video_footer{
-    margin-top: 20px;
+    margin-top: 60px;
     height: 100px;
     width: 100%;
     background-color:#322D2D;
