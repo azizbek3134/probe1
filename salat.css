@@ -76,7 +76,7 @@ a  {
     margin-bottom: -10px;
 }
 .salat_div1{
-    background-image: url(https://www.mcdonalds.com/content/dam/sites/de/nfl/hero/Unsere-Verantwortung-Header-Gallery-Desktop-1168x520-20210623.jpg);
+    background-image:url(./img/SALAD-1024x576.jpg);
     width: 90%;
     height: 500px;
     position: relative;
@@ -103,4 +103,7 @@ a  {
 .salat_img1, .salat_img2{
     margin-top: 30px;
     margin-left: 20px;
+    width: 570px;
+    height: 340px;
+
 }
