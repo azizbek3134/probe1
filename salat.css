@@ -107,3 +107,21 @@ a  {
     height: 340px;
 
 }
+.salat_p42{
+   font-size: 20px;
+   margin-top: 20px;
+}
+.salat_divbox2{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 450px;
+    height: 200px;
+    display: inline-block;
+    /* display: flex; */
+    /* padding-left: 50px; */
+}
+.salat_h2_2{
+    text-align: center;
+   padding-top: 20px;
+
+}
