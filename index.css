@@ -1,4 +1,4 @@
-.container-fluid {
+.container-fluid1 {
     background: #3b4245;
 }
 * {
@@ -50,8 +50,7 @@ color: blueviolet;
 font-weight: bold;
 border-radius: 1px  blueviolet;
 }
-.nav{
-    /* margin-left: 300px; */
+.nav1{
     padding-left: 50px;
 }
 .imger{
@@ -59,6 +58,14 @@ border-radius: 1px  blueviolet;
 }
 a  {
     color: yellow;
+}
+.div_hr{
+    margin-top: 30px;
+}
+.div_imgcarousel{
+    width: 1100px;
+    height: 700px;
+    margin-left: 10%;
 }
 .video_footer{
     height: 100px;

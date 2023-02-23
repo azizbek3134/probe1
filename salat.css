@@ -1,5 +1,6 @@
 .container-fluid {
     background: #3b4245;
+
 }
 * {
     margin: 0;
@@ -30,7 +31,7 @@ ul {
     
 }
 body {
-    background-color: rgb(238, 232, 185);
+    background-color: white;
    
 }
 h1 {
@@ -53,10 +54,14 @@ border-radius: 1px  blueviolet;
 a  {
     color: yellow;
 }
+.div_hr{
+    margin-top: 30px;
+}
 .video_footer{
     height: 100px;
     width: 100%;
     background-color:#322D2D;
+    margin-top: 30px;
 }
 .video_footer_p1{
     text-align: center;
@@ -69,4 +74,54 @@ a  {
 }
 .imger{
     margin-bottom: -10px;
+}
+.salat_div1{
+    background-image:url(./img/SALAD-1024x576.jpg);
+    width: 1150px;
+    height: 500px;
+    position: relative;
+    margin-left: 2rem;
+}
+.salat_div2{
+    background-color: #fff;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 94px;
+}
+.salat_h2, .salat_p1{
+    text-align: center;
+    padding-top: 30px;
+}
+.salat_p2, .salat_h1{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.salat_img1, .salat_img2{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 570px;
+    height: 340px;
+
+}
+.salat_p42{
+   font-size: 20px;
+   margin-top: 20px;
+}
+.salat_divbox2{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 450px;
+    height: 200px;
+    display: inline-block;
+    /* display: flex; */
+    /* padding-left: 50px; */
+}
+.salat_h2_2{
+    text-align: center;
+   padding-top: 20px;
+
 }
