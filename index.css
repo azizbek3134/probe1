@@ -11,6 +11,7 @@ li {
     padding:  10px;
     padding-right: 10px;
     font-size: 30px;
+
 }
 
 a {
@@ -27,6 +28,7 @@ ul {
     padding-left: 20px;
     position: sticky;
     flex-basis: auto;
+
     
 }
 body {
@@ -37,13 +39,15 @@ h1 {
     color: black
 }
 a:hover {
-    color: blueviolet;
+    text-decoration-line: none;
+
 }
 a:active {
     color: green;
 }
 a:visited {
     color: rgb(219, 121, 216);
+
 }
 a:focus {
 color: blueviolet;
@@ -54,7 +58,7 @@ border-radius: 1px  blueviolet;
     padding-left: 50px;
 }
 .imger{
-    margin-bottom: -10px;
+    margin-top: -5px;
 }
 a  {
     color: yellow;
