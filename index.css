@@ -30,7 +30,7 @@ ul {
     
 }
 body {
-    background-color: rgb(238, 232, 185);
+    background-color: white;
    
 }
 h1 {
@@ -66,6 +66,10 @@ a  {
     width: 1100px;
     height: 700px;
     margin-left: 10%;
+}
+.indexCrousel_img1{
+    width: 1100px;
+    height: 700px;
 }
 .video_footer{
     height: 100px;
