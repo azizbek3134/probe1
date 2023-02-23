@@ -8,7 +8,7 @@ li {
     display: inline-block;
     padding:  10px;
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 a {
@@ -179,6 +179,9 @@ position: relative ;
 .flexitem-flex{
     display: flex;
     flex-direction: row;
+}
+.heading.forum {
+    font-size: 30px;
 }
 .video_footer{
     height: 100px;
