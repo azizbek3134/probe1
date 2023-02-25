@@ -44,7 +44,7 @@ ul {
 }
 body {
     background-color: white;
-   
+    background-image: url('img/pexels-madison-inouye-1831234.jpg');
 }
 h1 {
     color: black;
@@ -155,8 +155,9 @@ position: relative ;
 
  div > img {
     display: flex;
-    width: 33%;
-    height: 90%;
+    width: 60%;
+    height: 35%;
+
 } 
 
 .rezept1 {
@@ -202,7 +203,7 @@ position: relative ;
 }
 .flexitem-flex{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
 }
 .heading.forum {
     font-size: 30px;
