@@ -4,6 +4,7 @@
     z-index: 2;
     top: 2px;
     width: 100%;
+    height: 75px;
 }
 * {
     margin: 0;
@@ -14,7 +15,14 @@ li {
     display: inline-block;
     padding:  10px;
     padding-right: 10px;
-    font-size: 25px;
+    font-size: 30px;
+}
+.p1 {
+    position: relative;
+    top: 20px;
+}
+p {
+    text-align: left;
 }
 .nav-item:hover {
     transform: scale(1.3);
@@ -48,10 +56,12 @@ body {
 }
 h1 {
     color: black;
-    top: 20px;
+    
     position: relative;
+    top: 50px;
     
 }
+
 a:hover {
     color: rgb(224, 9, 23);
 }
@@ -91,7 +101,7 @@ h2 {
     text-align: center;
 }
 .hh2 {
-    top: 20px;
+    top: 30px;
     position: relative;
 }
 
@@ -103,6 +113,7 @@ h2 {
    background: rgb(243, 247, 249);
    transform: translate(-50%,50%);
    width: 300px;
+   top: 20px;
   
 }
 .search-txt {
@@ -144,19 +155,23 @@ width: 100%;
 height: 100%;
 border: 10px solid blue;
 position: relative ;
+top: 30px;
 
 }
 .flexitem-flex{
    position: relative;
-   height: 33.33%;
-    
-   
+   height:auto;
+   width: 50%;
+    overflow:auto;
 }
+
+   
+
 
  div > img {
     display: flex;
-    width: 60%;
-    height: 35%;
+    width: 100%;
+    height: 65%;
 
 } 
 
@@ -170,7 +185,7 @@ position: relative ;
     float: right;
     position: relative;
     width: 30%;
-    height: 115vh;
+    min-height: 100%;
     border-radius: 4px;
     padding: 10px;
     box-shadow: 2px 2px 3px rgb(181, 168, 168);
@@ -183,13 +198,23 @@ position: relative ;
 .video {
     position: relative;
     width: 70%;
-    height: 100%;
+    height: auto;
     border: 3px solid green;
     display: flex;
     gap: 6px;
     padding: 5px;
-    flex-direction: column;
+    flex-direction: wrap-reverse;
     
+}
+.video2 {
+    position: relative;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction:wrap-reverse;
+    height: auto;
+    border:3px solid black;
+    gap: 7px;
 }
 .forum {
     position: relative;
@@ -201,10 +226,7 @@ position: relative ;
 .list {
     display: block;
 }
-.flexitem-flex{
-    display: flex;
-    flex-direction:row;
-}
+
 .heading.forum {
     font-size: 30px;
 }
