@@ -25,7 +25,9 @@ li {
 }
 img:hover {
     transform: scale(1.1);
-    transition: duration 0.4s;;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+    transition-timing-function: linear;
 }
 a {
     text-decoration: none;
@@ -146,7 +148,7 @@ h2 {
 display: inline-block;
 width: 100%;
 height: 100%;
-border: 10px solid blue;
+/*border: 10px solid blue;*/
 position: relative ;
 top: 30px;
 
@@ -155,7 +157,7 @@ top: 30px;
    position: relative;
    height:auto;
    width: 50%;
-    overflow:auto;
+    
 }
 
    
@@ -165,6 +167,7 @@ top: 30px;
     display: flex;
     width: 100%;
     height: 65%;
+    border-radius: 20px;
 
 } 
 
@@ -192,7 +195,7 @@ top: 30px;
     position: relative;
     width: 70%;
     height: auto;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     display: flex;
     gap: 6px;
     padding: 5px;
@@ -206,7 +209,7 @@ top: 30px;
     display: flex;
     flex-direction:wrap-reverse;
     height: auto;
-    border:3px solid black;
+    /*border:3px solid black;*/
     gap: 7px;
 }
 .video3 {
@@ -216,7 +219,7 @@ top: 30px;
     display: flex;
     flex-direction:wrap-reverse;
     height: auto;
-    border:3px solid black;
+    /*border:3px solid black;*/
     gap: 7px;
 }
 .forum {
