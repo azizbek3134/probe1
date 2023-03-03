@@ -33,10 +33,15 @@ ul {
 }
 body {
     background-color: white;
-   
+   background-image: url('img/pexels-madison-inouye-1831234.jpg');
 }
 h1 {
-    color: black
+    color: black;
+mix-blend-mode: overlay;
+z-index: 3;
+}
+p {
+    mix-blend-mode: overlay;
 }
 a:hover {
     text-decoration-line: none;
